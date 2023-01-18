@@ -1,21 +1,21 @@
 {
   "name": "my-app",
-  "version": "5.0.0",
+  "version": "0.1.0",
   "homepage": "https://powerops-mk.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.4.0",
     "@types/node": "^16.11.21",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-scripts": "5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
     "typescript": "^4.5.4",
-    "web-vitals": "^2.1.3"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -46,4 +46,52 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
+}
+
+
+#9 0.362   "scripts": {
+328
+#9 0.362     "start": "react-scripts start",
+329
+#9 0.362     "build": "react-scripts build",
+330
+#9 0.362     "test": "react-scripts test",
+331
+#9 0.362     "eject": "react-scripts eject"
+332
+#9 0.362   },
+333
+#9 0.362   "eslintConfig": {
+334
+#9 0.362     "extends": [
+335
+#9 0.362       "react-app",
+336
+#9 0.362       "react-app/jest"
+337
+#9 0.362     ]
+338
+#9 0.362   },
+339
+#9 0.362   "browserslist": {
+340
+#9 0.362     "production": [
+341
+#9 0.362       ">0.2%",
+342
+#9 0.362       "not dead",
+343
+#9 0.362       "not op_mini all"
+344
+#9 0.362     ],
+345
+#9 0.362     "development": [
+346
+#9 0.362       "last 1 chrome version",
+347
+#9 0.362       "last 1 firefox version",
+348
+       "last 1 safari version"
+     ]
+   }
 }
