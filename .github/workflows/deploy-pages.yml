@@ -1,4 +1,4 @@
-# This is a basic workflow to build and deploy a React site to GitHub Pages
+# This is a basic workflow to build and deploy a React app to GitHub Pages
 name: Deploy GitHub Pages
 
 # Controls when the workflow will run
@@ -21,13 +21,17 @@ permissions:
   pages: write
   id-token: write
 
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # Build job
+  # Builds the React app
   build:
-    runs-on: ubuntu-latest
+    # The type of runner that the job will run on
+    runs-on: ${{ matrix.os }}
 
+    # Setup matrix for OS and Python
     strategy:
       matrix:
+        os: [ubuntu-latest]
         node-version: [12.x]
 
     steps:
