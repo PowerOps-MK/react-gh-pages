@@ -1,8 +1,7 @@
 {
-  "name": my-app",
+  "name": "my-app",
   "version": "1.0.0",
   "description": "A new react app without CRA",
-  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server .",
     "build": "webpack .",
