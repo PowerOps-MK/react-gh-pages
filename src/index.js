@@ -8,17 +8,17 @@ class Square extends React.Component {
       <button className='square'>
         {/* TODO */}
       </button>
-    );
+    )
   }
 }
 
 class Board extends React.Component {
   renderSquare (i) {
-    return <Square />;
+    return <Square />
   }
 
   render () {
-    const status = 'Next player: X';
+    const status = 'Next player: X'
 
     return (
       <div>
@@ -39,7 +39,7 @@ class Board extends React.Component {
           {this.renderSquare(8)}
         </div>
       </div>
-    );
+    )
   }
 }
 
@@ -55,11 +55,11 @@ class Game extends React.Component {
           <ol>{/* TODO */}</ol>
         </div>
       </div>
-    );
+    )
   }
 }
 
 // ========================================
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Game />);
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<Game />)
