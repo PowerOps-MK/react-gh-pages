@@ -65,7 +65,7 @@ class Game extends React.Component {
     squares[i] = this.state.xIsNext ? 'X' : 'O'
     this.setState({
       history: history.concat([{
-        squares
+        squares: squares
       }]),
       stepNumber: history.length,
       xIsNext: !this.state.xIsNext
@@ -105,7 +105,7 @@ class Game extends React.Component {
         <div className='game-board'>
           <Board
             squares={current.squares}
-            onClick={(i) => this.handleClick(i)}
+            onClick={i => this.handleClick(i)}
           />
         </div>
         <div className='game-info'>
