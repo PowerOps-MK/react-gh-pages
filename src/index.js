@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 
 class Square extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = {
-      value: null,
+      value: null
     }
   }
 
