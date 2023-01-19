@@ -16,20 +16,20 @@ class Square extends React.Component {
 }
 
 class Board extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = {
-      squares: Array(9).fill(null),
+      squares: Array(9).fill(null)
     }
   }
-  
-  handleClick(i) {
+
+  handleClick (i) {
     const squares = this.state.squares.slice()
     squares[i] = 'X'
-    this.setState({squares: squares})
+    this.setState({ squares })
   }
-  
-  renderSquare(i) {
+
+  renderSquare (i) {
     return (
       <Square
         value={this.state.squares[i]}
