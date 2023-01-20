@@ -28,6 +28,11 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ${{ matrix.os }}
 
+    # Setup defaults for the steps within a job
+    defaults:
+      run:
+        working-directory: ./Tic-tac-toe
+
     # Setup matrix for OS and NodeJS
     strategy:
       matrix:
