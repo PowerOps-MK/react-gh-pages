@@ -16,10 +16,9 @@ concurrency:
   cancel-in-progress: true
 
 # Set environment variables
-
 env:
-  # Use docker.io for Docker Hub if empty
-  PATH: ./Tic-tac-toe
+  # Use folder for React app
+  FOLDER: ./Tic-tac-toe
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -37,7 +36,7 @@ jobs:
     # Setup defaults for the steps within a job
     defaults:
       run:
-        working-directory: ${{ env.PATH }}
+        working-directory: ${{ env.FOLDER }}
 
     # Setup matrix for OS and NodeJS
     strategy:
@@ -72,7 +71,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@253fd476ed429e83b7aae64a92a75b4ceb1a17cf # v1.0.7
         with:
-          path: ${{ env.PATH }}/build
+          path: ${{ env.FOLDER }}/build
 
   # Deploy app to Github Pages
   deploy:
