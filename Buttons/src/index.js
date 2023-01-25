@@ -69,11 +69,6 @@ function ShoppingList () {
   )
 }
 
-interface Country {
-  id: string,
-  name: string
-}
-
 function JsonImport () {  
   return (
     <>
