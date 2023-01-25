@@ -80,6 +80,7 @@ export default function MyApp () {
     <div>
       <h1>Welcome to my app</h1>
       <MyButton />
+      <MyButton />
       <AboutPage />
       <Profile />
       <ShoppingList />
