@@ -68,6 +68,23 @@ function ShoppingList () {
   )
 }
 
+function JsonImport () {
+  return (
+    <>
+      <div>
+        <div>Name : {data.name}</div>       
+        <div><label>Country :</label>
+        <select>
+          {data.country.map((country) => {
+            return <option key={country.id} value={country.id}>{country.name}</option>
+          })}
+        </select>
+        </div>
+      </div>
+    </>
+  )
+}
+
 export default function MyApp () {
   const [count, setCount] = useState(0)
 
@@ -83,6 +100,7 @@ export default function MyApp () {
       <AboutPage />
       <Profile />
       <ShoppingList />
+      <JsonImport />
     </div>
   )
 }
