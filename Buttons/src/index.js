@@ -69,8 +69,12 @@ function ShoppingList () {
   )
 }
 
-function JsonImport () {
-  const UsersDetails = () =>{
+interface Country {
+  id: string
+  name: string
+}
+
+function JsonImport () {  
   return (
     <>
       <div>
@@ -85,7 +89,6 @@ function JsonImport () {
       </div>
     </>
   )
-  }
 }
 
 export default function MyApp () {
