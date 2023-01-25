@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from 'react-dom/client'
 
 function MyButton () {
   return (
@@ -18,4 +19,4 @@ export default function MyApp () {
 // ========================================
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<Game />)
+root.render(<MyApp />)
