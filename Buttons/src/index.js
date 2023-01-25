@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 
@@ -11,11 +12,11 @@ const user = {
 const products = [
   { title: 'Cabbage', isFruit: false, id: 1 },
   { title: 'Garlic', isFruit: false, id: 2 },
-  { title: 'Apple', isFruit: true, id: 3 },
+  { title: 'Apple', isFruit: true, id: 3 }
 ]
 
 function MyButton () {
-  function handleClick() {
+  function handleClick () {
     alert('You clicked me!')
   }
 
@@ -40,7 +41,7 @@ function Profile () {
     <>
       <h1>{user.name}</h1>
       <img
-        className="avatar"
+        className='avatar'
         src={user.imageUrl}
         alt={'Photo of ' + user.name}
         style={{
