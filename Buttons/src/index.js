@@ -8,15 +8,6 @@ function MyButton () {
   )
 }
 
-export default function MyApp () {
-  return (
-    <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
-    </div>
-  )
-}
-
 function AboutPage () {
   return (
     <>
@@ -26,6 +17,15 @@ function AboutPage () {
   )
 }
 
+export default function MyApp () {
+  return (
+    <div>
+      <h1>Welcome to my app</h1>
+      <MyButton />
+      <AboutPage />
+    </div>
+  )
+}
 
 // ========================================
 
