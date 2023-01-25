@@ -69,9 +69,10 @@ function ShoppingList () {
   )
 }
 
-function JsonImport () {  
+function JsonImport () {
   return (
     <>
+      <h1>JSON import</h1>
       <div>
         <div>Name : {data.name}</div>
         <div><label>Country :</label>
