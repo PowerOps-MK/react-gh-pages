@@ -18,7 +18,7 @@ concurrency:
 # Set environment variables
 env:
   # Use folder for React app
-  FOLDER: ./Tic-tac-toe
+  FOLDER: ./Buttons
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
