@@ -16,7 +16,7 @@ const products = [
 
 function MyButton () {
   function handleClick() {
-    alert('You clicked me!');
+    alert('You clicked me!')
   }
 
   return (
