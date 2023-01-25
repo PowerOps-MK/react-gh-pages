@@ -19,4 +19,4 @@ export default function MyApp () {
 // ========================================
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<MyApp />)
+root.render()
