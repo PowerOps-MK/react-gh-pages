@@ -70,7 +70,7 @@ function ShoppingList () {
 }
 
 function JsonImport () {
-  export const UsersDetails = () =>{
+  const UsersDetails = () =>{
   return (
     <>
       <div>
