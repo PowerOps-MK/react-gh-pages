@@ -70,6 +70,7 @@ function ShoppingList () {
 }
 
 function JsonImport () {
+  export const UsersDetails = () =>{
   return (
     <>
       <div>
@@ -84,6 +85,7 @@ function JsonImport () {
       </div>
     </>
   )
+  }
 }
 
 export default function MyApp () {
