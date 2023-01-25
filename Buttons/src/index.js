@@ -59,8 +59,10 @@ function ShoppingList () {
   )
 
   return (
-    <h1>Shoppinglist</h1>
-    <ul>{listItems}</ul>
+    <>
+      <h1>Shoppinglist</h1>
+      <ul>{listItems}</ul>
+    </>
   )
 }
 
