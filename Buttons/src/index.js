@@ -16,13 +16,15 @@ const products = [
 ]
 
 function MyButton () {
+  const [count, setCount] = useState(0)
+
   function handleClick () {
-    alert('You clicked me!')
+    setCount(count + 1);
   }
 
   return (
     <button onClick={handleClick}>
-      Click me
+      Clicked {count} times
     </button>
   )
 }
