@@ -73,7 +73,7 @@ function JsonImport () {
   return (
     <>
       <div>
-        <div>Name : {data.name}</div>       
+        <div>Name : {data.name}</div>
         <div><label>Country :</label>
           <select>
             {data.country.map((country) => {
