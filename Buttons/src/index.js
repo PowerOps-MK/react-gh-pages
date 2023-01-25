@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import data from './data.json'
 
 const user = {
   name: 'Hedy Lamarr',
