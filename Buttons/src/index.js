@@ -14,3 +14,8 @@ export default function MyApp () {
     </div>
   )
 }
+
+// ========================================
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<Game />)
