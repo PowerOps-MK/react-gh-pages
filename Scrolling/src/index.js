@@ -163,26 +163,26 @@ class Section extends React.Component {
                 </li>
                 <li>
                   {" "}
-                  <a href="" onClick={() => animateScroll.scrollTo(100)}>
+                  <a href="/#" onClick={() => animateScroll.scrollTo(100)}>
                     Scroll To 100!
                   </a>
                 </li>
                 <li>
                   {" "}
-                  <a href="" onClick={() => animateScroll.scrollToBottom()}>
+                  <a href="/#" onClick={() => animateScroll.scrollToBottom()}>
                     Scroll To Bottom
                   </a>
                 </li>
                 <li>
                   {" "}
-                  <a href="" onClick={() => animateScroll.scrollMore(500)}>
+                  <a href="/#" onClick={() => animateScroll.scrollMore(500)}>
                     Scroll 500 More!
                   </a>
                 </li>
                 <li>
                   {" "}
                   <a
-                    href="" onClick={() =>
+                    href="/#" onClick={() =>
                       animateScroll.scrollMore(1000, { delay: 1500 })
                     }
                   >
@@ -214,7 +214,7 @@ class Section extends React.Component {
                   </Link>
                 </li>
                 <li>
-                  <a href=""
+                  <a href="/#"
                     className="test1"
                     to="test1"
                     onClick={() => this.scrollTo()}
@@ -223,7 +223,7 @@ class Section extends React.Component {
                   </a>
                 </li>
                 <li>
-                  <a href=""
+                  <a href="/#"
                     className="test1"
                     to="test1"
                     onClick={() => this.scrollTo(-50)}
@@ -232,7 +232,7 @@ class Section extends React.Component {
                   </a>
                 </li>
                 <li>
-                  <a href=""
+                  <a href="/#"
                     className="test1"
                     to="test1"
                     onClick={() => this.scrollToWithContainer()}
