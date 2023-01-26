@@ -32,9 +32,6 @@ class Section extends React.Component {
       console.log("end", arguments);
     });
   }
-  scrollToTop() {
-    scroll.scrollToTop();
-  }
   scrollTo(offset) {
     scroller.scrollTo("scroll-to-element", {
       duration: 800,
