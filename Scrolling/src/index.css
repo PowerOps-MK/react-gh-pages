@@ -2,3 +2,10 @@ body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
+
+.animated.div {
+  width: 80;
+  height: 80;
+  background: "#ff6d6d";
+  borderRadius: 8;
+}
