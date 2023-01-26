@@ -70,7 +70,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: .package-lock.json
+          path: ./package-lock.json
 
       # Upload artifact (gzip) to deploy
       - name: Upload artifact
