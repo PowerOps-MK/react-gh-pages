@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { animated } from '@react-spring/web'
+// import { animated } from '@react-spring/web'
 
 export default function MyApp () {
   return (
