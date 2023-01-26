@@ -363,7 +363,7 @@ class Section extends React.Component {
           </form>
         </div>
 
-        <a onClick={this.scrollToTop}>To the top!</a>
+        <a href="/#" onClick={this.scrollToTop}>To the top!</a>
       </div>
     );
   }
