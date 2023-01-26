@@ -10,7 +10,7 @@ export default function MyComponent () {
         width: 80,
         height: 80,
         background: '#ff6d6d',
-        borderRadius: 8l
+        borderRadius: 8
       }}
     />
   )
