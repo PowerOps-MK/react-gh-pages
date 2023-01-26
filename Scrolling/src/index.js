@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { animated } from '@react-spring/web'
+import './index.css'
 
 export default function MyComponent () {
   return (
