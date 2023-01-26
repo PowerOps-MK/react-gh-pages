@@ -1,15 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react'
+import ReactDOM from 'react-dom'
 import { animated } from '@react-spring/web'
 
-export default function MyComponent() {
+export default function MyComponent () {
   return (
     <animated.div
       style={{
         width: 80,
         height: 80,
         background: '#ff6d6d',
-        borderRadius: 8,
+        borderRadius: 8l
       }}
     />
   )
