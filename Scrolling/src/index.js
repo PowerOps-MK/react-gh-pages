@@ -10,7 +10,11 @@ export default function MyComponent () {
   })
 
   return (
-    <animated.div />
+    <animated.div
+      style={{
+        ...springs
+      }}
+    />
   )
 }
 
