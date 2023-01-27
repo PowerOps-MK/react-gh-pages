@@ -11,6 +11,7 @@ export default function MyComponent () {
 
   return (
     <animated.div
+      className='game'
       style={{
         ...springs
       }}
