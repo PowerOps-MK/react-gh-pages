@@ -1,30 +1,13 @@
 import React, { useState, useRef } from 'react'
 import ReactDOM from 'react-dom'
-import { useSpring, animated } from '@react-spring/web'
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
-import useMeasure from 'react-use-measure'
 import './index.css'
 
 // Little helpers ...
 const url = (name: string, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 
-function MyApp () {
-  const [open, toggle] = useState(false)
-  const [ref, { width }] = useMeasure()
-  const props = useSpring({ width: open ? width : 0 })
-
-  return (
-    <div className='container'>
-      <div ref={ref} className='main' onClick={() => toggle(!open)}>
-        <animated.div className='fill' style={props} />
-        <animated.div className='content'>{props.width.to(x => x.toFixed(0))}</animated.div>
-      </div>
-    </div>
-  )
-}
-
-export default function App () {
+export default function MyApp () {
   const parallax = <IParallax>()
   return (
     <div style={{ width: '100%', height: '100%', background: '#253237' }}>
@@ -137,4 +120,4 @@ export default function App () {
 // ========================================
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<App />)
+root.render(<MyApp />)
