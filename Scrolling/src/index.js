@@ -7,7 +7,7 @@ const url = (name: string, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 
 export default function MyApp () {
-  const parallax = useRef<IParallax>(null!)
+  const parallax = useRef<IParallax>(null!),
   return (
     <div style={{ width: '100%', height: '100%', background: '#253237' }}>
 
