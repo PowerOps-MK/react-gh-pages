@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
 import './index.css'
 
-// Little helpers ...
 const url = (name: string, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 
