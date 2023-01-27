@@ -1,39 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 import { useSpring, animated } from '@react-spring/web'
 import './index.css'
 
-export default function MyComponent () {
-  const [springs, api] = useSpring(() => ({
-    from: { x: 0 },
-  }))
-  
-  const handleClick = () => {
-    api.start({
-      from: {
-        x: 0,
-      },
-      to: {
-        x: 100,
-      },
-    })
-  }
+export default function App() {
+  const [open, toggle] = useState(false)
+  //const [ref, { width }] = useMeasure()
+  const props = useSpring({ width: open ? width : 0 })
 
   return (
-    <animated.div
-      onClick={handleClick}
-      style={{
-        width: 80,
-        height: 80,
-        background: '#ff6d6d',
-        borderRadius: 8,
-        ...springs
-      }}
-    />
+    <div className={styles.container}>
+      <div ref={ref} className={styles.main} onClick={() => toggle(!open)}>
+        <animated.div className={styles.fill} style={props} />
+        <animated.div className={styles.content}>{props.width.to(x => x.toFixed(0))}</animated.div>
+      </div>
+    </div>
   )
 }
 
 // ========================================
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<MyComponent />)
+root.render(<MyApp />)
