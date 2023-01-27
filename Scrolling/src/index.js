@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom'
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
 import './index.css'
 
+const url = (name: string, wrap = false) =>
+  `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 
 export default function MyApp () {
   const parallax = useRef<IParallax>(null!)
