@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom'
 import { useSpring, animated } from '@react-spring/web'
 import './index.css'
 
-export default function App() {
+export default function MyApp () {
   const [open, toggle] = useState(false)
   //const [ref, { width }] = useMeasure()
   const props = useSpring({ width: open ? width : 0 })
 
   return (
-    <div className={styles.container}>
-      <div ref={ref} className={styles.main} onClick={() => toggle(!open)}>
-        <animated.div className={styles.fill} style={props} />
-        <animated.div className={styles.content}>{props.width.to(x => x.toFixed(0))}</animated.div>
+    <div className={container}>
+      <div ref={ref} className={main} onClick={() => toggle(!open)}>
+        <animated.div className={fill} style={props} />
+        <animated.div className={content}>{props.width.to(x => x.toFixed(0))}</animated.div>
       </div>
     </div>
   )
