@@ -21,6 +21,7 @@ export default function MyComponent () {
 
   return (
     <animated.div
+      onClick={handleClick}
       style={{
         width: 80,
         height: 80,
