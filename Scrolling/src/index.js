@@ -25,7 +25,7 @@ function MyApp () {
 }
 
 export default function App () {
-  const parallax = useRef<IParallax>(null!)
+  //const parallax = useRef<IParallax>(null!)
   return (
     <div style={{ width: '100%', height: '100%', background: '#253237' }}>
       <Parallax ref={parallax} pages={3}>
