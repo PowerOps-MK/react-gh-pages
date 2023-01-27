@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom'
 import { useSpring, animated } from '@react-spring/web'
+import useMeasure from 'react-use-measure'
 import './index.css'
 
 export default function MyApp () {
   const [open, toggle] = useState(false)
-  //const [ref, { width }] = useMeasure()
+  const [ref, { width }] = useMeasure()
   const props = useSpring({ width: open ? width : 0 })
 
   return (
