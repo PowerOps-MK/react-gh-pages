@@ -4,6 +4,7 @@
   "homepage": "https://powerops-mk.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
+    "@react-spring/parallax": "^9.6.1",
     "@react-spring/web": "^9.6.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
