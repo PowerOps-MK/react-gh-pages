@@ -21,7 +21,7 @@ export default function MyApp () {
         </ParallaxLayer>
 
         <ParallaxLayer offset={1.5} speed={1.5} style={{ ...alignCenter, justifyContent: 'flex-end' }}>
-          <div className='card parallax purple'>
+          <div className='card parallax green'>
             <p>I'm not</p>
           </div>
         </ParallaxLayer>
