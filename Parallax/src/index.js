@@ -47,6 +47,17 @@ export default function MyApp () {
           <img src={url('cloud')} alt='cloud' style={{ display: 'block', width: '20%', marginLeft: '70%' }} />
           <img src={url('cloud')} alt='cloud' style={{ display: 'block', width: '20%', marginLeft: '40%' }} />
         </ParallaxLayer>
+
+        <ParallaxLayer
+          offset={1}
+          speed={0.1}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}>
+          <img src={url('clients-main')} alt='clients' style={{ width: '40%' }} />
+        </ParallaxLayer>
       </Parallax>
     </div>
   )
