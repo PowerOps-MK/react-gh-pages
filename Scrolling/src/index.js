@@ -14,7 +14,7 @@ export default function MyApp () {
           <p className='scroll-text'>Scroll down</p>
         </ParallaxLayer>
 
-        <ParallaxLayer sticky={{ start: 1, end: 3 }} style={{ ...alignCenter, justifyContent: 'flex-start' }}>
+        <ParallaxLayer sticky={{ start: 1, end: 2 }} style={{ ...alignCenter, justifyContent: 'flex-start' }}>
           <div className='card sticky'>
             <p>I'm a sticky layer</p>
           </div>
@@ -26,7 +26,7 @@ export default function MyApp () {
           </div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2.5} speed={1.5} style={{ ...alignCenter, justifyContent: 'flex-end' }}>
+        <ParallaxLayer offset={2} speed={1.5} style={{ ...alignCenter, justifyContent: 'flex-end' }}>
           <div className='card parallax blue'>
             <p>Neither am I</p>
           </div>
