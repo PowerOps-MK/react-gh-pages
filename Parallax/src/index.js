@@ -18,7 +18,7 @@ export default function MyApp () {
           factor={3}
           style={{
             backgroundImage: url('stars', true),
-            backgroundSize: 'cover',
+            backgroundSize: 'cover'
           }}
         />
 
@@ -26,7 +26,7 @@ export default function MyApp () {
           <p className='scroll-text'>Scroll down</p>
         </ParallaxLayer>
 
-       <ParallaxLayer offset={1.3} speed={-0.3} style={{ pointerEvents: 'none' }}>
+        <ParallaxLayer offset={1.3} speed={-0.3} style={{ pointerEvents: 'none' }}>
           <img src={url('satellite4')} alt='satellite' style={{ width: '15%', marginLeft: '70%' }} />
         </ParallaxLayer>
       </Parallax>
