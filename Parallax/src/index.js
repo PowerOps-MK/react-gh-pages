@@ -11,7 +11,7 @@ export default function MyApp () {
   const props = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
-    delay: 20
+    delay: 200
   })
   
   return (
@@ -29,7 +29,9 @@ export default function MyApp () {
         />
 
         <ParallaxLayer offset={0} speed={0.5} style={{ ...alignCenter, justifyContent: 'center' }}>
-          <animated.div style={props}>Scroll down</animated.div>
+          <animated.div style={props}>
+            <h1>Scroll down</h1>
+          </animated.div>
         </ParallaxLayer>
 
         <ParallaxLayer offset={1.3} speed={-0.3} style={{ pointerEvents: 'none' }}>
