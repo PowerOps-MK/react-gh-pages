@@ -9,7 +9,7 @@ export default function MyApp () {
   const url = (name, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 
-  const [trails, api] = useTrail(
+  const trails = useTrail(
     2,
     () => ({
       from: { opacity: 0 },
