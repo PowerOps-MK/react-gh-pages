@@ -10,9 +10,9 @@ export default function MyApp () {
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
   const props = useSpring({
     from: { opacity: 0 },
-    to: { opacity: 1 },
-    config: { duration: 4000 },
-    delay: 1000
+    to: { opacity: 1, color: 'red' },
+    config: { duration: 5000 },
+    delay: 500
   })
 
   return (
