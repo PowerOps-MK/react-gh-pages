@@ -9,7 +9,11 @@ export default function MyApp () {
   return (
     <div>
       <div className='background' />
-        <h1>hello</h1>
+      <Parallax pages={5}>
+        <ParallaxLayer offset={0} speed={0.5} style={{ ...alignCenter, justifyContent: 'center' }}>
+          <p className="scroll-text">Scroll down</p>
+        </ParallaxLayer>
+      </Parallax>
     </div>
   )
 }
