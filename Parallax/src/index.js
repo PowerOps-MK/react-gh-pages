@@ -1,16 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { useSpring, animated } from '@react-spring/web'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import './index.css'
-import { useSpring, animated } from '@react-spring/web'
 
 export default function MyApp () {
   const alignCenter = { display: 'flex', alignItems: 'center' }
   const url = (name, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
   const props = useSpring({
-    from: { opacity: 1 },
-    to: { opacity: 0 }
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+    delay: 20
   })
   
   return (
@@ -28,8 +29,7 @@ export default function MyApp () {
         />
 
         <ParallaxLayer offset={0} speed={0.5} style={{ ...alignCenter, justifyContent: 'center' }}>
-          <p>Scroll down</p>
-          <animated.div style={props}>Hello World</animated.div>
+          <animated.div style={props}>Scroll down</animated.div>
         </ParallaxLayer>
 
         <ParallaxLayer offset={1.3} speed={-0.3} style={{ pointerEvents: 'none' }}>
