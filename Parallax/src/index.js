@@ -30,9 +30,7 @@ export default function MyApp () {
         />
 
         <ParallaxLayer offset={0} speed={0.5} style={{ ...alignCenter, justifyContent: 'center' }}>
-          <animated.div style={props}>
-            <h1>Scroll down</h1>
-          </animated.div>
+          <animated.div style={props}>Scroll down</animated.div>
         </ParallaxLayer>
 
         <ParallaxLayer offset={1.3} speed={-0.3} style={{ pointerEvents: 'none' }}>
