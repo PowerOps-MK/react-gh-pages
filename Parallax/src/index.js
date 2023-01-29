@@ -60,8 +60,8 @@ export default function MyApp () {
           style={{
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center',
-          }}>
+            justifyContent: 'center'
+        }}>
           <img src={url('clients-main')} alt='clients' style={{ width: '40%' }} />
         </ParallaxLayer>
       </Parallax>
