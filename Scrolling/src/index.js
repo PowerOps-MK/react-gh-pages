@@ -10,7 +10,7 @@ export default function MyApp () {
 
   return (
     <div>
-      <div className='background' />
+      <div />
       <Parallax pages={3}>
         <ParallaxLayer
           offset={0}
