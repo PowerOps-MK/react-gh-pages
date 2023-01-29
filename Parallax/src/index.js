@@ -55,7 +55,6 @@ export default function MyApp () {
         </ParallaxLayer>
 
         <ParallaxLayer offset={2} speed={0.1} style={{ display: 'flex', alignItems: 'center' }}>
-          // justifyContent: 'center'
           <img src={url('clients-main')} alt='clients' style={{ width: '40%' }} />
         </ParallaxLayer>
 
