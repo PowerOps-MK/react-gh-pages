@@ -58,8 +58,8 @@ export default function MyApp () {
           <img src={url('clients-main')} alt='clients' style={{ width: '40%' }} />
         </ParallaxLayer>
 
-        <ParallaxLayer sticky={{ start: 2, end: 3 }} style={{ opacity: 0.8 }}>
-          <img src={url('earth')} alt='earth' style={{ width: '5%', marginLeft: '25%' }} />
+        <ParallaxLayer sticky={{ start: 1.5, end: 3 }} style={{ opacity: 0.8 }}>
+          <img src={url('earth')} alt='earth' style={{ width: '7%', marginLeft: '15%' }} />
         </ParallaxLayer>
       </Parallax>
     </div>
