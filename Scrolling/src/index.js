@@ -23,7 +23,7 @@ export default function MyApp () {
         />
 
        <ParallaxLayer offset={1.3} speed={-0.3} style={{ pointerEvents: 'none' }}>
-          <img src={url('satellite4')} style={{ width: '15%', marginLeft: '70%' }} />
+          <img src={url('satellite4')} alt='satellite' style={{ width: '15%', marginLeft: '70%' }} />
         </ParallaxLayer>
 
         <ParallaxLayer offset={0} speed={0.5} style={{ ...alignCenter, justifyContent: 'center' }}>
