@@ -8,7 +8,7 @@ export default function MyApp () {
 
   return (
     <div>
-      <div className="background" />
+      <div className='background' />
         <h1>hello</h1>
     </div>
   )
