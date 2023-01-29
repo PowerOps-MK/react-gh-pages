@@ -11,8 +11,8 @@ export default function MyApp () {
   const props = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
-    config: { tension:500, friction:18 },
-    delay: 500
+    config: { tension:500, friction:18, duration: 5000 },
+    delay: 1000
   })
 
   return (
