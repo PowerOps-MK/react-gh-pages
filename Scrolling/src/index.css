@@ -4,7 +4,7 @@ body {
 }
 
 .background {
-  background: linear-gradient(#F8F8FF, #8B0000);
+  background: linear-gradient(#8B0000, #000000);
   position: absolute;
   top: 0;
   bottom: 0;
