@@ -48,7 +48,7 @@ export default function MyApp () {
           <img src={url('cloud')} alt='cloud' style={{ display: 'block', width: '20%', marginLeft: '40%' }} />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1.6} speed={-0.1} style={{ opacity: 0.4 }}>
+        <ParallaxLayer offset={2} speed={-0.1} style={{ opacity: 0.4 }}>
           <img src={url('cloud')} alt='cloud' style={{ display: 'block', width: '20%', marginLeft: '60%' }} />
           <img src={url('cloud')} alt='cloud' style={{ display: 'block', width: '25%', marginLeft: '30%' }} />
           <img src={url('cloud')} alt='cloud' style={{ display: 'block', width: '10%', marginLeft: '80%' }} />
