@@ -54,12 +54,12 @@ export default function MyApp () {
           <img src={url('cloud')} alt='cloud' style={{ display: 'block', width: '10%', marginLeft: '80%' }} />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2} speed={0.1} style={{ display: 'flex', alignItems: 'center' }}>
+        <ParallaxLayer offset={2} speed={0.1} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <img src={url('clients-main')} alt='clients' style={{ width: '40%' }} />
         </ParallaxLayer>
 
-        <ParallaxLayer sticky={{ start: 1, end: 2 }} style={{ ...alignCenter, justifyContent: 'flex-start' }}>
-          <p>I'm a sticky layer</p>
+        <ParallaxLayer sticky={{ start: 1, end: 3 }} style={{ ...alignCenter, justifyContent: 'flex-start' }}>
+          <img src={url('earth')} alt='earth' style={{ width: '10%' }} />
         </ParallaxLayer>
       </Parallax>
     </div>
