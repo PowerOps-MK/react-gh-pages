@@ -9,9 +9,9 @@ export default function MyApp () {
   const url = (name, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
   const props = useSpring({
-    from: { opacity: 0, color: '#f8f8ff', fontSize: '2.5em' },
+    from: { opacity: 0, color: '#f8f8ff' },
     to: { opacity: 1, color: '#000', fontSize: '3em' },
-    config: { duration: 2000 },
+    config: { duration: 5000 },
     delay: 500
   })
 
@@ -62,7 +62,7 @@ export default function MyApp () {
             alignItems: 'center',
             justifyContent: 'center',
           }}>
-          <img src={url('clients-main')} alt='clients' style={{ width: '30%' }} />
+          <img src={url('clients-main')} alt='clients' style={{ width: '40%' }} />
         </ParallaxLayer>
       </Parallax>
     </div>
