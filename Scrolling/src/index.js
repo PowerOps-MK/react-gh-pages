@@ -15,7 +15,7 @@ export default function MyApp () {
         </ParallaxLayer>
 
         <ParallaxLayer sticky={{ start: 1, end: 3 }} style={{ ...alignCenter, justifyContent: 'flex-start' }}>
-          <div className='card'>
+          <div className='card sticky'>
             <p>I'm a sticky layer</p>
           </div>
         </ParallaxLayer>
