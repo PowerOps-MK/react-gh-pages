@@ -5,7 +5,7 @@ import './index.css'
 
 export default function MyApp () {
   const alignCenter = { display: 'flex', alignItems: 'center' }
-  const url = (name: string, wrap = false) =>
+  const url = (name, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 
   return (
