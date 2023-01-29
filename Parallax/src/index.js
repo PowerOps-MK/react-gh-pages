@@ -13,7 +13,7 @@ export default function MyApp () {
     to: { opacity: 1 },
     delay: 200
   })
-  
+
   return (
     <div>
       <div className='background' />
