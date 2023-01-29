@@ -2,21 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import './index.css'
-import { useTrail, animated } from '@react-spring/web'
 
 export default function MyApp () {
   const alignCenter = { display: 'flex', alignItems: 'center' }
   const url = (name, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
-
-  const trails = useTrail(
-    1,
-    () => ({
-      from: { opacity: 0 },
-      to: { opacity: 1 },
-    }),
-    []
-  )
 
   return (
     <div>
@@ -33,9 +23,7 @@ export default function MyApp () {
         />
 
         <ParallaxLayer offset={0} speed={0.5} style={{ ...alignCenter, justifyContent: 'center' }}>
-          {trails.map(props => (
-            <animated.div style={props}>Hello World</animated.div>
-          ))}
+          <p>Scroll down</p>
         </ParallaxLayer>
 
         <ParallaxLayer offset={1.3} speed={-0.3} style={{ pointerEvents: 'none' }}>
