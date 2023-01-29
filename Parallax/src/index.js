@@ -11,8 +11,8 @@ export default function MyApp () {
   const props = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
-    config: { duration: 5000 },
-    delay: 2000
+    config: { duration: 4000 },
+    delay: 1000
   })
 
   return (
