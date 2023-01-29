@@ -9,9 +9,9 @@ export default function MyApp () {
   const url = (name, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
   const props = useSpring({
-    from: { opacity: 0, color: '#f8f8ff', fontSize: '1em' },
+    from: { opacity: 0, color: '#f8f8ff', fontSize: '1.5em' },
     to: { opacity: 1, color: '#000', fontSize: '3em' },
-    config: { duration: 5000 },
+    config: { duration: 2500 },
     delay: 500
   })
 
@@ -35,7 +35,7 @@ export default function MyApp () {
 
         <ParallaxLayer offset={1.3} speed={-0.3} style={{ pointerEvents: 'none' }}>
           <img src={url('satellite4')} alt='satellite' style={{ width: '15%', marginLeft: '70%' }} />
-          <img src={url('satellite4')} alt='satellite' style={{ width: '5%', marginLeft: '10%' }} />
+          <img src={url('satellite4')} alt='satellite' style={{ width: '5%', marginLeft: '30%' }} />
         </ParallaxLayer>
 
         <ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.1 }}>
