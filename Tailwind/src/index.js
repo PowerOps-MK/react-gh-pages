@@ -4,7 +4,7 @@ import './index.css'
 
 export default function MyApp () {
   return (
-    <div className='bg-gray-200 py-4 dark:bg-gray-800'>
+    <div className='bg-gray-200 py-4 dark:bg-gray-800 shadow-sm rounded-lg'>
       <div className='mx-auto'>
         Hello World
       </div>
