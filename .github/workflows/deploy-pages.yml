@@ -18,7 +18,7 @@ concurrency:
 # Set environment variables
 env:
   # Use folder for React app
-  FOLDER: ./Scrolling
+  FOLDER: ./Tailwind
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
