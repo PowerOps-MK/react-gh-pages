@@ -17,7 +17,7 @@ export default function MyApp () {
         </div>
 
         <div class='bg-indigo-700 rounded flex items-center space-x-4'>
-          <div class='py-4'>
+          <div class='py-4 pl-4'>
             <img class='h-16 w-16' src='https://www.freeiconspng.com/uploads/iphone-message-icon-png-22.png' alt='ChitChat Logo' />
           </div>
           <div>
