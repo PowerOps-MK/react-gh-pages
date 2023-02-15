@@ -8,6 +8,8 @@ export default function MyApp () {
       <div>
         <div class='p-8 bg-indigo-700 space-y-4'>
         </div>
+        <div class='p-8 bg-indigo-700 space-y-4'>
+        </div>
       </div>
     </body>
   )
