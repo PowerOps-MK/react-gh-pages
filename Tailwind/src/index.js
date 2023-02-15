@@ -4,9 +4,9 @@ import './index.css'
 
 export default function MyApp () {  
   return (
-    <div>
-      <div className='background' />
-    </div>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   )
 }
 
