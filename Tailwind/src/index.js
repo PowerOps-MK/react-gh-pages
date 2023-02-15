@@ -4,9 +4,9 @@ import './index.css'
 
 export default function MyApp () {
   return (
-    <div className='bg-gray-200 dark:bg-gray-800'>
+    <body class="min-h-screen bg-gradient-to-b from-gray-100 to-gray-300">
       Hello world 🌎 
-    </div>
+    </body>
   )
 }
 
