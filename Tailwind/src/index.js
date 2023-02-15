@@ -4,7 +4,7 @@ import './index.css'
 
 export default function MyApp () {
   return (
-    <body class='bg-gray-200 dark:bg-slate-800'>
+    <div class='bg-indigo-500'>
       <div class='p-6 max-w-sm mx-auto rounded-xl shadow-lg flex items-center space-x-4'>
         <div class='shrink-0'>
           <img class='h-12 w-12' src='https://play-lh.googleusercontent.com/ZSqfn8W1VzWp80p9aI4RFBaou0z0O5YN5sHEQHOKzK5spwiitvaj5Jq8HxnqxC6JLQ=w480-h960' alt='ChitChat Logo' />
@@ -14,7 +14,7 @@ export default function MyApp () {
           <p class='text-slate-500'>You have a new message!</p>
         </div>
       </div>
-    </body>
+    </div>
   )
 }
 
