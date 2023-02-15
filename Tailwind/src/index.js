@@ -8,7 +8,7 @@ export default function MyApp () {
       <div class='flex flex-col space-y-6 p-6'>
         <div class='bg-indigo-700 rounded flex items-center space-x-4'>
           <div class='shrink-0'>
-            <img class='h-12 w-12 rounded' src='https://play-lh.googleusercontent.com/ZSqfn8W1VzWp80p9aI4RFBaou0z0O5YN5sHEQHOKzK5spwiitvaj5Jq8HxnqxC6JLQ=w480-h960' alt='ChitChat Logo' />
+            <img class='h-16 w-16' src='https://www.freeiconspng.com/uploads/iphone-message-icon-png-22.png' alt='ChitChat Logo' />
           </div>
           <div>
             <div class='text-xl font-medium text-black'>ChitChat</div>
@@ -18,7 +18,7 @@ export default function MyApp () {
 
         <div class='bg-indigo-700 rounded flex items-center space-x-4'>
           <div class='shrink-0'>
-            <img class='h-12 w-12 rounded' src='https://www.freeiconspng.com/uploads/iphone-message-icon-png-22.png' alt='ChitChat Logo' />
+            <img class='h-16 w-16' src='https://www.freeiconspng.com/uploads/iphone-message-icon-png-22.png' alt='ChitChat Logo' />
           </div>
           <div>
             <div class='text-xl font-medium text-black'>ChitChat</div>
