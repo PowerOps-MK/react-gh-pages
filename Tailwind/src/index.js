@@ -6,10 +6,8 @@ export default function MyApp () {
   return (
     <body class='min-h-screen bg-gradient-to-b from-indigo-800 to-black'>
       <div flex flex-col space-y-4>
-        <div class='p-8 bg-indigo-700'>
-        </div>
-        <div class='p-8 bg-indigo-700'>
-        </div>
+        <div class='bg-indigo-700'>1</div>
+        <div class='bg-indigo-700'>2</div>
       </div>
     </body>
   )
