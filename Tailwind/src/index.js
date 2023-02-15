@@ -4,8 +4,8 @@ import './index.css'
 
 export default function MyApp () {
   return (
-    <div class='dark:bg-slate-800'>
-      <div class='p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4'>
+    <div className='bg-gray-200 dark:bg-slate-800'>
+      <div class='p-6 max-w-sm mx-auto rounded-xl shadow-lg flex items-center space-x-4'>
         <div class='shrink-0'>
           <img class='h-12 w-12' src='https://play-lh.googleusercontent.com/ZSqfn8W1VzWp80p9aI4RFBaou0z0O5YN5sHEQHOKzK5spwiitvaj5Jq8HxnqxC6JLQ=w480-h960' alt='ChitChat Logo' />
         </div>
