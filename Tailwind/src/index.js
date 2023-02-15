@@ -4,8 +4,10 @@ import './index.css'
 
 export default function MyApp () {  
   return (
-    <div class="w-full md:w-3/4 lg:w-1/2">
-      Hello
+    <div className="bg-gray-200">
+      <div className="md:w-1/2 mx-auto">
+        Hello
+      </div>
     </div>
   )
 }
