@@ -4,7 +4,7 @@ import './index.css'
 
 export default function MyApp () {
   return (
-    <body class='min-h-screen bg-gradient-to-b from-slate-600 to-gray-900'>
+    <body class='min-h-screen bg-gradient-to-r from-indigo-500'>
       Hello world 🌎 
     </body>
   )
