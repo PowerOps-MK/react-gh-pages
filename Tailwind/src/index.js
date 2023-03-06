@@ -15,16 +15,6 @@ export default function MyApp () {
             <p class='text-slate-500'>You have a new message!</p>
           </div>
         </div>
-
-        <div class='bg-indigo-700 shadow-xl rounded flex items-center space-x-4 lg:w-1/2'>
-          <div class='py-4 pl-4'>
-            <img class='h-16 w-16' src='https://www.freeiconspng.com/uploads/iphone-message-icon-png-22.png' alt='ChitChat Logo' />
-          </div>
-          <div>
-            <div class='text-xl font-medium text-black'>Chat</div>
-            <p class='text-slate-500'>You have a new message!</p>
-          </div>
-        </div>
       </div>
     </body>
   )
